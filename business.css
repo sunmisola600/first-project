@@ -1,0 +1,2224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    /* list-style: none; */
+    text-decoration: none;
+}
+
+/* Beginning of overall Header */
+
+.capital-logo{
+    width: 115px;
+}
+header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4e5e8;
+    position: relative;
+    z-index: 1;
+    
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto;
+    width: 59.4%;
+     padding-top: 10px;
+  
+  
+}
+
+.capital-links{
+    display: flex;
+    gap: 15px;
+    margin-right: 140px; 
+    list-style: none;
+ 
+}
+
+.capital-links li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);;
+   
+}
+.capital-icons{
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    color: #252525;
+    
+}
+
+.drop-cards{
+    width: 100%;
+    height: 490px;
+    background-color: #ffffff;
+    position: absolute;
+    border-top: 1px solid #e4e5e8;
+    left: 0;
+    top: 100%;
+     box-shadow: 0px 1px 3px gray; 
+     opacity: 0;
+     visibility: hidden;
+}
+.personal:hover .drop-cards{
+    opacity: 1;
+    visibility: visible;
+
+}
+.personal:hover{
+    border-bottom: 5px solid #0276b1;
+    border-radius: 3px;
+}
+.personal{
+    height: 50px; 
+}
+
+
+.card{
+    display: flex;
+    gap: 30px;
+    padding: 5px;  
+    
+    
+}
+
+.cards{
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cards  h5:hover{
+    text-decoration: underline;
+   
+}
+
+.cards p{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+   
+}
+.card-bttn{
+    margin-top: 30px;
+}
+
+
+.card-bttn a{
+    background-color: #0276b1;
+    text-align: center;
+    padding: 10px 20px; 
+    color: #ffffff !important;
+   
+}
+
+.wrap-card a{
+    margin-top: 20px;
+    color: #e4e5e8;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 30px;
+    /* margin-right: 8%;  */
+ 
+   
+}
+
+.carded {
+    line-height: 26px;
+    font-size: 14px;
+    color: rgb(20, 20, 20);
+    
+}
+.carded h6{
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.carded h6:hover{
+    text-decoration: underline;
+}
+
+.cardeds{
+    padding-top: 35px;
+    line-height: 26px;
+    font-size: 15px;
+    
+}
+.cardeds h6{
+     font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cardeds h6:hover{
+     text-decoration: underline;
+
+}
+
+
+.third-card{
+    display: flex;
+    line-height: 26px; 
+    gap: 20px;
+    color: rgb(20, 20, 20);
+  
+
+}
+.third-card h5{
+    font-size: 12px;
+    font-weight: 600;
+    
+
+}
+.third-card h6{
+    font-size: 12.4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.third-card h6:hover{
+    text-decoration: underline;
+}
+
+
+.img1{
+     width: 150px; 
+     padding-top: 35px;
+     object-fit: cover;
+
+}
+.third-cards{
+    background-color: #f4f4f4;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+     margin-top: 30px;
+     
+    
+}
+
+.card-text a {
+     width: 50%;
+     color: #57c8f4 !important;
+    
+}
+.card-text a:hover{
+text-decoration: underline;
+}
+
+.wrapped{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding: 30px;
+}
+.cardee{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cardee img{
+    width: 50px;
+}
+.cardes{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.third-branchs{
+   
+    padding-top: 10px;
+    color: rgb(20, 20, 20);
+    line-height: 20px;
+}
+  
+.third-branchs p{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+.third-branchs h5:hover{
+    text-decoration: underline;
+}
+.third-cardss{
+    gap: 30px;
+    display: flex;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    width: 400px;
+}
+.img2{
+    width: 180px; 
+ 
+}
+.card-texts{
+    padding-top: 30px;
+    
+    line-height: 25px;
+   
+     
+}
+.card-texts a:hover{
+    text-decoration: underline;
+}
+.auto{
+    width: 10px;
+}
+.capital-icons{
+    cursor: pointer;
+    
+    
+}
+
+.glass-drop{
+    background-color:#ffffff ;
+    width: 70px;
+    height: 45px;
+    position: fixed;
+    top: 4%;
+    left: 68%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;
+    cursor: auto;
+    
+}
+.search-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+
+}
+
+.capital-icon:hover .glass-drop{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.glass-drop button{
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+}
+
+.question-drop{
+    background-color: #ffffff;
+    width: 100px;
+    height: 45px;
+    top: 70%;
+    left: 70%;
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 0 4px gray;
+}
+.question-drop button{
+    border: none;
+    background-color: white;
+    outline: none;
+    color: rgb(20, 20, 20);
+    font-weight: 400;
+
+
+}
+
+.capital-iconss:hover .question-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.location-drop{
+    background-color: #ffffff;
+    width: 90px;
+    height: 45px;
+    top: 70%;
+    left: 73%;
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 0 4px gray;
+
+}
+
+.capital-iconed:hover .location-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.location-drop button{
+    background-color: white;
+    outline: none;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+    border: none;
+}
+.capital-iconse:hover{
+    text-decoration: underline;
+}
+/* End of overall Header */
+
+
+/* beginning of legend */
+
+.legend-logo img{
+    width: 100%;
+    height: 555px;
+    position: relative;
+    object-fit: cover;
+}
+.box{
+    width: 420px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 21%;
+    left: 18.55%;
+    border: none;
+    outline: none;
+    padding: 35px;
+    border-radius: 8px;
+}
+.bx-text h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(20, 20, 20);
+
+}
+
+.bx-text p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(20, 20, 20);
+}
+/* End of Legend  */
+
+
+
+
+/* beginning of section one */
+
+.section-one{
+   padding: 20px;
+}
+.section-one h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120px;
+    color: rgb(20, 20, 20);
+}
+.business{
+    width: 65.4%;
+    margin: auto;
+    padding: 30px;
+}
+.business-text img{
+    object-fit: cover;
+    
+}
+.business-text{
+    display: flex;
+    gap: 60px;
+}
+.business-card h3{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 60px;
+    color: rgb(20, 20, 20);
+
+}
+.business-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(20, 20, 20);
+}
+.business-card a{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #0265a4
+
+}
+.business-card a:hover{
+    text-decoration: underline;
+}
+
+.business-bank h3{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 60px;
+    color: rgb(20, 20, 20);
+}
+.business-bank p{
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(20, 20, 20);
+
+}
+.dip{
+    color:#0265a4 ;
+    font-size: 12px;
+}
+.dip a{
+     font-size: 14px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #0265a4
+
+}
+.business-bank a:hover{
+    text-decoration: underline;
+}
+/* End of section one */
+
+
+
+
+
+/* Beginning of section two */
+
+.section-two{
+    margin: 65px auto 0;
+    width: min(1120px, calc(100% - 40px));
+    background-color:#f4f4f4;
+    padding: 70px 40px;
+    border: none;
+} 
+
+.section-two-inner{
+    width: min(1110px, 100%);
+    margin: auto;
+}
+
+.section-two h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: rgb(20, 20, 20);
+}
+
+.product-tabs{
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    margin-bottom: 46px;
+}
+
+.product-tabs a{
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0 4px 16px;
+}
+
+.product-tabs a:hover{
+    text-decoration: underline;
+}
+
+.product-tabs .active{
+    border-bottom: 4px solid #0276b1;
+    color: #014e74;
+}
+
+.product-feature{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-color: #ffffff;
+}
+
+.second-text,
+.third-text{
+    background-color: #ffffff;
+    padding: 58px 56px;
+    min-height: 420px;
+}
+
+.second-text h4,
+.third-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(20, 20, 20);
+}
+
+.second-text h1,
+.third-text h1{
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(20, 20, 20);
+}
+
+.second-text p,
+.third-text p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(20, 20, 20);
+}
+
+.second-text a,
+.third-text a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #014e74;
+}
+
+.second-text a:hover,
+.third-text a:hover{
+    text-decoration: underline;
+}
+
+.feature-image{
+    min-height: 420px;
+    background-color: #ffffff;
+}
+
+.feature-image img{
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    object-fit: cover;
+    display: block;
+}
+ /* end of section two */
+
+
+
+
+
+/* beginning of section three */
+
+.section-three{
+    background-color:#013d5b;
+    width: 100%;
+    height: 300px ;
+}
+.covered{
+    text-align: center;
+    padding: 70px;
+}
+
+.covered h1{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 90px;
+    color: rgb(255, 255, 255);
+}
+.covered h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+/* End of section three */
+
+
+
+
+
+
+/* beginning of section four */
+
+.section-four{
+    background-color: #ffffff;
+    width: 100%;
+    height: 80vh;
+}
+.bank-txt{
+    padding: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.boxessed{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+
+}
+.boxessed img{
+     width: 355px;
+     height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.boxess{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+  
+}
+.boxeds{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+
+}
+.boxeds img{
+     width: 355px;
+     height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contained{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.boxess img{
+    width: 355px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box-tex{
+    padding: 20px;
+}
+.box-tex h1{
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 50px;
+  color: rgb(20, 20, 20);
+}
+.box-tex p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+}
+.box-texed{
+    padding: 20px;
+}
+.box-texed h3{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 27px;
+     color: rgb(20, 20, 20);
+}
+.box-texed p{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+
+}
+
+.products{
+  width: 58%;
+  margin: auto;
+  padding-top: 5%;
+}
+.product-text{
+    font-size: 12px;
+   font-weight: 400;
+   line-height: 25px;
+   color: rgb(20, 20, 20);
+}
+.pro-text{
+    padding-left: 20px;
+}
+.pro-text li{
+    font-size: 11px;
+    font-weight: 450;
+    line-height: 18px;
+    color: rgb(20, 20, 20);
+}
+.uline{
+    text-decoration: underline;
+    color: #72ccff;
+}
+/* End of section four */
+
+
+
+
+/* Beginning of Section five */
+
+.section-five{
+    width: 100%;
+    height: 47vh;
+    background-color: #3d3d3d;
+}
+
+.linking{
+    display: flex;
+    gap: 75%; 
+    padding: 50px;
+    align-items: center;
+    width: 64%;
+    margin: auto; 
+    position: relative;
+}
+.linkings{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   color: rgb(168, 168, 168);
+}
+.linkings-drop{
+    background-color: #ffffff;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 70%;
+    right: 90%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;
+   
+}
+.capital-onebtn{
+     border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+}
+ .linkings:hover .linkings-drop{
+    opacity: 1;
+    visibility: visible;
+}
+
+.linkings p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(168, 168, 168);
+}
+.linking img{
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}   
+.social{
+   display: flex;
+   gap: 20px;
+   font-size: 20px;
+   color: #ffffff;
+}
+.instagram{
+    cursor: pointer;
+}
+
+.instagram-drop{
+    background-color: #ffffff;
+    width: 90px;
+    height: 45px;
+    position: absolute;
+    top: 70%;
+    right: 14%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden; 
+
+}
+.instagram-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+
+}
+.instagram:hover .instagram-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.twitter{
+    position: relative;
+    cursor: pointer;
+}
+.twitter-drop{
+    background-color: #ffffff;
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;  
+
+}
+.twitter-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+}
+.twitter:hover .twitter-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.facebook{
+    position: relative;
+    cursor: pointer;
+}
+
+.facebook-drop{
+    background-color: #ffffff;
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    top: 120%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;   
+
+}
+.facebook-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+
+}
+.facebook:hover .facebook-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.linkedin{
+    position: relative;
+    cursor: pointer;
+}
+
+.linkedin-drop{
+    background-color: #ffffff;
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    top: 120%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;    
+}
+.linkedin-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+}
+.linkedin:hover .linkedin-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.youtube{
+    position: relative;
+    cursor: pointer;
+}
+.youtube-drop{
+    background-color: #ffffff;
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    top: 120%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;    
+    
+}
+.youtube-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+    font-weight: 500;
+
+}
+.youtube:hover .youtube-drop{
+    opacity: 1;
+    visibility: visible;
+}
+
+.word{
+    display: flex;
+    width: 58%;
+    margin: auto;
+    gap: 30px;
+}
+.words h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.words p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(212, 212, 212);
+}
+
+.words p:hover{
+    text-decoration: underline;
+}
+/* End of sectin five */
+
+
+
+
+/* Beginning of footer */
+.footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #525252;
+    border: none;
+    cursor: pointer;
+}
+.footed{
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+
+}
+.inner{
+    background-color:#525252 ;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+.sub-inner h5{
+    line-height: 30px;
+}
+.fline{
+    text-decoration: underline;
+} 
+.sub-inner{
+    background-color: #525252;
+    width: 100%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    display: none;
+ 
+}
+.mark{
+    display: none;  
+   
+}
+.pus{
+    display: block;
+}
+
+
+.footer:focus-within .sub-inner{
+   display: block;
+   
+}
+.footer:focus-within .mark{
+    display: block;
+}
+.footer:focus-within .plus{
+    display: none;
+}
+.footer:focus-within .sub-inner{
+    border-radius: 20px 20px 0 0;
+
+} 
+/* End of footer section */
+
+
+
+/* Beginning of Ending section */
+
+.ending{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.nav-tex{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(105, 105, 105);
+}
+.mid-nav{
+    display: flex;
+    gap: 20px;
+}
+.mid-nav a{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(105, 105, 105);
+  
+   
+}
+.p-link{
+    border-right: 1.5px solid #e4e5e8;
+    padding: 3.5px;
+
+}
+.p-link:hover{
+    text-decoration: underline;
+}
+.california img{
+    width: 20px;
+}
+.california{
+    display: flex;
+    gap: 10px;
+    padding: 3.5px;
+    border-right: 1.5px solid #e4e5e8;
+}
+.california a:hover{
+    text-decoration: underline;
+}
+
+.house1{
+    width: 20px;
+}
+.house2{
+    width: 30px;
+}
+.position{
+   background-color: #f4f4f4;
+   border-radius: 50%;
+    position: fixed;
+    top: 93.4%;
+    left: 96%;
+
+ 
+}
+.icons{
+    font-size: 40px;
+   font-weight: 200;
+  
+   color: rgb(0, 0, 0);
+}
+
+.icons2{
+    background-color: #0276b1;
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    position: fixed;
+    left: 96.05%;
+    top: 44%;
+    transform: rotate(90deg);
+    border-radius: 2px;
+}
+.icons p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+}
+/* End of ending section */
+.parent{
+    display: none;
+    border-bottom: 1px solid #e4e5e8;
+   
+    
+}
+
+.image-cap{
+    width: 115px;
+}
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+  
+}
+
+
+.picture{
+    text-align: center;
+}
+.picture p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: normal; 
+    color: rgb(20,20,20);
+}
+.bar-drop{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    height: 700px;
+    left: 0;
+    top: 16%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0.5px 50px;
+    
+   
+    
+}
+.child{
+    border-bottom: 1px solid #e4e5e8;
+    padding-bottom: 25px;
+   
+   
+
+}
+.bar-flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    
+   
+    
+}
+.bar-flex h1{
+    font-size: 20.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+
+}
+
+.bar:hover .bar-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.fact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+}
+.parent-fact{
+    padding-top: 20px;
+}
+.fact p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+}
+.fact p:hover{
+    color: #237cb1;
+}
+.space{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.focus{
+    width: 100%;
+    height: 280px;
+    background-color: #525252;
+    border: none;
+    cursor: pointer;
+}
+.focused{
+    width: 58%;
+    margin: auto;
+    /* padding: 25px; */
+
+}
+.outer{
+    background-color:#525252 ;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    /* flex-direction: column; */
+  
+
+}
+.sub-outer p{
+    line-height: 30px;
+}
+.fline{
+    text-decoration: underline;
+} 
+.sub-outer{
+    background-color: #525252;
+    width: 100%;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    display: none;
+ 
+}
+.marks{
+    display: none;  
+   
+}
+.puss{
+    display: block;
+}
+
+
+.focus:focus-within .sub-outer{
+   display: block;
+   
+}
+.focus:focus-within .marks{
+    display: block;
+}
+.focus:focus-within .pluss{
+    display: none;
+}
+.focus:focus-within .sub-outer{
+    border-radius: 20px 20px 0 0;
+
+} 
+
+
+
+
+
+
+/* ---- 1391px (Large Laptops) ---- */
+@media (max-width: 1391px) {
+
+    /* HEADER */
+    nav {
+        width: 95%;
+    }
+
+    .capital-links {
+        gap: 10px;
+        margin-right: 60px;
+    }
+
+    .capital-links li a {
+        font-size: 13px;
+    }
+
+    .drop-cards {
+        height: auto;
+    }
+
+    .wrapper,
+    .wrapped {
+        gap: 5%;
+        padding: 20px;
+    }
+
+    .third-cardss {
+        width: 320px;
+    }
+
+    /* LEGEND */
+    .legend-logo img {
+        height: 480px;
+    }
+
+    .box {
+        width: 360px;
+        left: 12%;
+        padding: 25px;
+    }
+
+    .bx-text h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    /* SECTION ONE */
+    .business {
+        width: 80%;
+    }
+
+    .business-text {
+        gap: 40px;
+    }
+
+    .business-card h3,
+    .business-bank h3 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    /* SECTION TWO */
+    .section-two {
+        width: calc(100% - 60px);
+        padding: 50px 30px;
+    }
+
+    .second-text h1,
+    .third-text h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    /* SECTION THREE */
+    .covered h1 {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    .covered h3 {
+        font-size: 18px;
+    }
+
+    /* SECTION FOUR */
+    .section-four {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .boxessed,
+    .boxess,
+    .boxeds {
+        width: 300px;
+    }
+
+    .boxessed img,
+    .boxeds img {
+        width: 300px;
+    }
+
+    .boxess img {
+        width: 300px;
+    }
+
+    .products {
+        width: 75%;
+    }
+
+    /* SECTION FIVE */
+    .section-five {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .linking {
+        width: 80%;
+        gap: 55%;
+    }
+
+    .word {
+        width: 75%;
+    }
+
+    /* FOOTER */
+    .footed {
+        width: 75%;
+    }
+    .focus{
+        display: none;
+    }
+
+    /* ENDING */
+    .icons2 {
+        left: 94%;
+    }
+}
+
+
+/* ---- 1023px (Tablets & Small Laptops) ---- */
+@media (max-width: 1042px) {
+
+    /* HEADER */
+    nav {
+        width: 80%;
+        display: none;
+    }
+    
+     .parent{
+        display: block;
+     }
+     .bar-drop{
+        z-index: 100;
+        position: absolute;
+        top: 5%;
+     }
+
+    .capital-links {
+        gap: 8px;
+        margin-right: 20px;
+    }
+
+    .capital-links li a {
+        font-size: 12px;
+    }
+
+    .drop-cards {
+        height: auto;
+    }
+
+    /* LEGEND */
+    .legend-logo img {
+        height: 400px;
+    }
+
+    .box {
+        width: 300px;
+        top: 20%;
+        left: 8%;
+        padding: 20px;
+    }
+
+    .bx-text h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .bx-text p {
+        font-size: 14px;
+    }
+
+    /* SECTION ONE */
+    .business {
+        width: 95%;
+        padding: 15px;
+        
+    }
+
+    .business-text {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .business-text img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .business-card h3,
+    .business-bank h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .section-one h4 {
+        line-height: 60px;
+    }
+
+    /* SECTION TWO */
+    .section-two {
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+        margin-top: 40px;
+    }
+
+    .product-feature {
+        grid-template-columns: 1fr;
+    }
+
+    .product-feature.reverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-image {
+        min-height: 300px;
+    }
+
+    .feature-image img {
+        min-height: 300px;
+    }
+
+    .second-text,
+    .third-text {
+        padding: 35px 30px;
+        min-height: auto;
+    }
+
+    .second-text h1,
+    .third-text h1 {
+        font-size: 28px;
+        line-height: 36px;
+        padding-top: 15px;
+    }
+
+    .product-tabs {
+        gap: 30px;
+    }
+
+    /* SECTION THREE */
+    .section-three {
+        height: auto;
+    }
+
+    .covered {
+        padding: 50px 30px;
+    }
+
+    .covered h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .covered h3 {
+        font-size: 16px;
+    }
+
+    /* SECTION FOUR */
+    .section-four {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .bank-txt {
+        padding: 40px 20px;
+    }
+
+    .contained {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    .boxessed,
+    .boxess,
+    .boxeds {
+        width: 280px;
+        height: auto;
+    }
+
+    .boxessed img,
+    .boxeds img {
+        width: 280px;
+    }
+
+    .boxess img {
+        width: 280px;
+    }
+
+    .products {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    /* SECTION FIVE */
+    .section-five {
+        height: auto;
+        padding-bottom: 40px;
+        display: none;
+    }
+
+    .linking {
+        width: 90%;
+        gap: 45%;
+        padding: 30px;
+        
+    }
+
+    .word {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* FOOTER */
+    .footed {
+        width: 90%;
+       
+    }
+    .focus{
+        display: block;
+       padding: 20px;
+    }
+   
+
+    /* ENDING */
+    .navigation {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .mid-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .icons2 {
+        left: 92%;
+    }
+
+    .position {
+        left: 93%;
+    }
+}
+
+
+/* ---- 776px (Tablets Portrait) ---- */
+@media (max-width: 776px) {
+
+    /* HEADER */
+    nav {
+        width: 100%;
+        padding: 12px 20px;
+        position: relative;
+    }
+
+    .capital-links {
+        display: none;
+    }
+
+    .capital-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .capital-icon,
+    .capital-iconss,
+    .capital-iconed {
+        display: none;
+    }
+
+    .capital-iconse {
+        font-size: 14px;
+        min-width: 60px;
+        text-align: right;
+    }
+
+    /* LEGEND */
+    .legend-logo img {
+        height: 320px;
+    }
+
+    .box {
+        width: 80%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        height: auto;
+    }
+
+    .bx-text h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .bx-text p {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    /* SECTION ONE */
+      .business {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* stack the two items under each other */
+    .business-text {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* inside each item — image beside text */
+    .business-item {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .business-item img {
+        width: px;
+        height: px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .business-card,
+    .business-bank {
+        flex: 1;
+    }
+
+    .business-card h3,
+    .business-bank h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .business-card p,
+    .business-bank p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .section-one h4 {
+        line-height: 50px;
+        font-size: 14px;
+    }
+
+    /* SECTION TWO */
+    .section-two {
+        width: 100%;
+        margin: 30px 0 0;
+        padding: 30px 15px;
+    }
+
+    .product-tabs {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-tabs a {
+        font-size: 14px;
+    }
+
+    .second-text,
+    .third-text {
+        padding: 25px 20px;
+    }
+
+    .second-text h1,
+    .third-text h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .second-text p,
+    .third-text p {
+        font-size: 14px;
+    }
+
+    .feature-image {
+        min-height: 250px;
+    }
+
+    .feature-image img {
+        min-height: 250px;
+    }
+
+    /* SECTION THREE */
+    .covered {
+        padding: 40px 20px;
+    }
+
+    .covered h1 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .covered h3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* SECTION FOUR */
+    .bank-txt {
+        padding: 30px 15px;
+    }
+
+    .contained {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .boxessed,
+    .boxess,
+    .boxeds {
+        width: 90%;
+        height: auto;
+    }
+
+    .boxessed img,
+    .boxeds img {
+        width: 100%;
+    }
+
+    .boxess img {
+        width: 100%;
+    }
+
+    .products {
+        width: 95%;
+        padding: 20px 15px;
+    }
+
+    /* SECTION FIVE */
+    .linking {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .word {
+        width: 95%;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .words {
+        width: 45%;
+    }
+
+    /* FOOTER */
+    .footed {
+        width: 100%;
+    }
+    .focus{
+         height: auto;
+        padding: 20px;
+
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    /* ENDING */
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .mid-nav {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .ending-image {
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .icons2 {
+        left: 88%;
+        top: 46%;
+    }
+
+    .position {
+        left: 88%;
+        top: 91%;
+    }
+}
+
+
+/* ---- 480px (Mobile Phones) ---- */
+@media (max-width: 480px) {
+
+    /* LEGEND */
+    .legend-logo img {
+        height: 260px;
+    }
+
+    .box {
+        width: 80%;
+        padding: 5px;
+        position: absolute;
+        top: 30%;
+        text-align: center;
+    }
+
+    .bx-text h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .bx-text p {
+        font-size: 12px;
+    }
+
+    /* SECTION ONE */
+
+    
+    .section-one h4 {
+        font-size: 13px;
+        line-height: 40px;
+        padding: 20px;
+    }
+
+    .business-card h3,
+    .business-bank h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .business-card p,
+    .business-bank p {
+        font-size: 13px;
+    }
+
+    /* SECTION TWO */
+    .section-two {
+        padding: 20px 12px;
+    }
+
+    .section-two h2 {
+        font-size: 13px;
+    }
+
+    .product-tabs {
+        gap: 15px;
+    }
+
+    .product-tabs a {
+        font-size: 13px;
+    }
+
+    .second-text h4,
+    .third-text h4 {
+        font-size: 13px;
+    }
+
+    .second-text h1,
+    .third-text h1 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 12px;
+    }
+
+    .second-text p,
+    .third-text p {
+        font-size: 13px;
+        padding-top: 12px;
+    }
+
+    .feature-image {
+        min-height: 200px;
+    }
+
+    .feature-image img {
+        min-height: 200px;
+    }
+
+    /* SECTION THREE */
+    .covered {
+        padding: 30px 15px;
+    }
+
+    .covered h1 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .covered h3 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* SECTION FOUR */
+    .bank-txt h4 {
+        font-size: 14px;
+    }
+
+    .boxessed,
+    .boxess,
+    .boxeds {
+        width: 95%;
+    }
+
+    .box-tex h1,
+    .box-texed h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .box-tex p,
+    .box-texed p {
+        font-size: 13px;
+    }
+
+    .products {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .product-text {
+        font-size: 11px;
+    }
+
+    .pro-text li {
+        font-size: 10px;
+    }
+
+    /* SECTION FIVE */
+    .linking {
+        padding: 15px;
+    }
+
+    .word {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .words {
+        width: 100%;
+    }
+
+    .words h5 {
+        font-size: 13px;
+    }
+
+    .words p {
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+    .footed {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .inner h2 {
+        font-size: 15px;
+    }
+
+    /* ENDING */
+    .nav-tex p {
+        font-size: 11px;
+    }
+
+    .mid-nav a {
+        font-size: 11px;
+    }
+
+    .icons2 {
+        left: 82%;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .position {
+        left: 84%;
+        top: 92%;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+}
+
+
+
+
+/* @media (max-width: 950px) {
+    .business-text{
+        flex-direction: column;
+    }
+
+    .section-two {
+        width: min(720px, calc(100% - 32px));
+        padding: 52px 24px 64px;
+    }
+
+    .product-tabs{
+        gap: 28px;
+    }
+
+    .product-feature{
+        grid-template-columns: 1fr;
+    }
+
+    .second-text,
+    .third-text {
+        padding: 34px 28px;
+        min-height: auto;
+    }
+
+    .feature-image,
+    .feature-image img {
+        min-height: 0;
+        height: auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .section-one {
+        padding: 38px 0 52px;
+    }
+
+    .business {
+        padding: 0 16px;
+    }
+
+    .business-card,
+    .business-bank,
+    .second-text,
+    .third-text {
+        padding: 26px 20px;
+    }
+
+    .business-card h3,
+    .business-bank h3,
+    .second-text h1,
+    .third-text h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-two {
+        width: 100%;
+        padding: 42px 16px;
+    }
+
+    .product-tabs{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .product-tabs a{
+        font-size: 13px;
+        padding-bottom: 12px;
+    }
+}
+
+
+
+
+ */

@@ -1,0 +1,983 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    /* list-style: none; */
+    text-decoration: none;
+}
+
+/* Beginning of overall Header */
+
+.capital-logo{
+    width: 115px;
+}
+header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4e5e8;
+    position: relative;
+    z-index: 1;
+    
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto;
+    width: 59.4%;
+     padding-top: 10px;
+  
+  
+}
+
+.capital-links{
+    display: flex;
+    gap: 15px;
+    margin-right: 140px; 
+    list-style: none;
+ 
+}
+
+.capital-links li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);;
+   
+}
+.capital-icons{
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    color: #252525;
+    
+}
+
+.drop-cards{
+    width: 100%;
+    height: 490px;
+    background-color: #ffffff;
+    position: absolute;
+    border-top: 1px solid #e4e5e8;
+    left: 0;
+    top: 100%;
+     box-shadow: 0px 1px 3px gray; 
+     opacity: 0;
+     visibility: hidden;
+}
+.personal:hover .drop-cards{
+    opacity: 1;
+    visibility: visible;
+
+}
+.personal:hover{
+    border-bottom: 5px solid #0276b1;
+    border-radius: 3px;
+}
+.personal{
+    height: 50px;
+}
+
+
+.card{
+    display: flex;
+    gap: 30px;
+    padding: 5px;  
+    
+    
+}
+
+.cards{
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cards  h5:hover{
+    text-decoration: underline;
+   
+}
+
+.cards p{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+   
+}
+.card-bttn{
+    margin-top: 30px;
+}
+
+
+.card-bttn a{
+    background-color: #0276b1;
+    text-align: center;
+    padding: 10px 20px; 
+    color: #ffffff !important;
+   
+}
+
+.wrap-card a{
+    margin-top: 20px;
+    color: #e4e5e8;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 30px;
+    /* margin-right: 8%;  */
+ 
+   
+}
+
+.carded {
+    line-height: 26px;
+    font-size: 14px;
+    color: rgb(20, 20, 20);
+    
+}
+.carded h6{
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.carded h6:hover{
+    text-decoration: underline;
+}
+
+.cardeds{
+    padding-top: 35px;
+    line-height: 26px;
+    font-size: 15px;
+    
+}
+.cardeds h6{
+     font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cardeds h6:hover{
+     text-decoration: underline;
+
+}
+
+
+.third-card{
+    display: flex;
+    line-height: 26px; 
+    gap: 20px;
+    color: rgb(20, 20, 20);
+  
+
+}
+.third-card h5{
+    font-size: 12px;
+    font-weight: 600;
+    
+
+}
+.third-card h6{
+    font-size: 12.4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.third-card h6:hover{
+    text-decoration: underline;
+}
+
+
+.img1{
+     width: 150px; 
+     padding-top: 35px;
+     object-fit: cover;
+
+}
+.third-cards{
+    background-color: #f4f4f4;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+     margin-top: 30px;
+     
+    
+}
+
+.card-text a {
+     width: 50%;
+     color: #57c8f4 !important;
+    
+}
+.card-text a:hover{
+text-decoration: underline;
+}
+
+.wrapped{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding: 30px;
+}
+.cardee{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cardee img{
+    width: 50px;
+}
+.cardes{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.third-branchs{
+   
+    padding-top: 10px;
+    color: rgb(20, 20, 20);
+    line-height: 20px;
+}
+  
+.third-branchs p{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+.third-branchs h5:hover{
+    text-decoration: underline;
+}
+.third-cardss{
+    gap: 30px;
+    display: flex;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    width: 400px;
+}
+.img2{
+    width: 180px; 
+ 
+}
+.card-texts{
+    padding-top: 30px;
+    
+    line-height: 25px;
+   
+     
+}
+.card-texts a:hover{
+    text-decoration: underline;
+}
+.auto{
+    width: 10px;
+}
+.capital-icons{
+    cursor: pointer;
+    
+    
+}
+
+.glass-drop{
+    background-color:#ffffff ;
+    width: 70px;
+    height: 45px;
+    position: fixed;
+    top: 4%;
+    left: 68%;
+    padding: 10px;
+    box-shadow: 0px 0 4px gray;
+    opacity: 0;
+    visibility: hidden;
+    cursor: auto;
+    
+}
+.search-btn{
+    border: none;
+    outline: none;
+    color: rgb(20, 20, 20);
+    background-color: #ffffff;
+
+}
+
+.capital-icon:hover .glass-drop{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.glass-drop button{
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+}
+
+.question-drop{
+    background-color: #ffffff;
+    width: 100px;
+    height: 45px;
+    top: 70%;
+    left: 70%;
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 0 4px gray;
+}
+.question-drop button{
+    border: none;
+    background-color: white;
+    outline: none;
+    color: rgb(20, 20, 20);
+    font-weight: 400;
+
+
+}
+
+.capital-iconss:hover .question-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.location-drop{
+    background-color: #ffffff;
+    width: 90px;
+    height: 45px;
+    top: 70%;
+    left: 73%;
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 0 4px gray;
+
+}
+
+.capital-iconed:hover .location-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.location-drop button{
+    background-color: white;
+    outline: none;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+    border: none;
+}
+.capital-iconse:hover{
+    text-decoration: underline;
+}
+/* End of overall Header */
+
+/* Beginning of account */
+.account-type{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 18vh;
+
+}
+.account-text{
+    width: 59.4%;
+    margin: auto;
+    padding-top: 23px;
+}
+.account-image{
+    display: flex;
+    gap: 120px;
+    text-align: center;
+}
+.account-typ h3{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+}
+.checking img{
+    width: 50px;
+}
+.checking a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+}
+.checking a:hover{
+    text-decoration: underline;
+}
+
+
+.checkings img{
+    width: 60px;
+}
+
+.checkings a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+}
+.checkings a:hover{
+    text-decoration: underline;
+}
+.checked img{
+    width: 60px;
+}
+.checked a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+}
+.checked a:hover{
+    text-decoration: underline;
+}
+.check img{
+    width: 60px;
+}
+.check a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+
+}
+.check a:hover{
+    text-decoration:underline ;
+}
+
+@keyframes checking{
+    from{
+         transform: translateX(200PX);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
+/* End of account type */
+ 
+
+/* beginning of legend */
+
+.legend-logo img{
+    width: 100%;
+    height: 555px;
+    position: relative;
+    object-fit: cover;
+}
+.box{
+    width: 420px;
+    height: 220px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 20.55%;
+    border: none;
+    outline: none;
+    padding: 35px;
+    border-radius: 8px;
+}
+.bx-text h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(20, 20, 20);
+
+}
+
+.bx-text p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(20, 20, 20);
+}
+/* End of Legend  */
+
+.section-two{
+    width: 59.4%;
+    padding: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    
+}
+.bank-account{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+.banking-journey{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+   justify-content: center;
+    padding-top: 40px;
+   
+    
+}
+.banking{
+    color: rgb(2, 101, 151);
+    border-bottom: 1px solid rgb(2, 101, 151);;
+    
+
+}
+
+.banking-journey h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+   
+}
+.container{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    
+}
+
+
+.boxes{
+    width: 580px;
+    height: 230px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+    text-align: left;
+    padding-bottom: 60px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    border-top: 6px solid #013d5b;
+}
+.check-text{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+.check-text2{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 60px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+.check-text3{
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 20px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+
+}
+.bank-link{
+    padding-top: 80px;
+    font-size: 12px;
+    color: rgb(2, 118, 177);
+    
+
+}
+.bank-link a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(2, 118, 177);
+}
+.bank-link a:hover{
+    text-decoration: underline;
+}
+/* End of section one */
+
+.cafe{
+    display: flex;
+    gap: 70px;
+ 
+}
+
+.cafe-image img{
+    width: 530px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cafe-text{
+    text-align: left;
+    padding-top: 70px;
+    color: rgb(2, 118, 177);
+}
+.cafe-text h4{
+   font-size: 35px;
+   font-weight: 300;
+   line-height: 40px;
+   color: rgb(0, 0, 0);
+
+    
+}
+.cafe-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+     padding-top: 20px;
+}
+.cafe-text a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100px;
+    color: rgb(2, 118, 177);
+}
+.cafe-text a:hover{
+    text-decoration: underline;
+}
+/* End of section Two */
+
+
+
+
+/* beginning of section three */
+.section-three{
+  margin-top: 100px;
+}
+.sect-bank h1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 80px;
+}
+.big-image{
+    width: 55%;
+    height: 116vh;
+    background-color: #f4f4f4;
+    margin: auto;
+    justify-content: center;
+    
+    
+}
+
+
+.second-imgtext {
+    padding: 6%;
+    
+}
+
+
+.big-text h1{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(0, 0, 0);
+}
+
+
+.big-text p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+.big-text {
+    color: rgb(2, 118, 177);
+    font-size: 12px;
+   
+}
+.big-text a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100px;
+    color: rgb(2, 118, 177);
+   
+}
+.big-text a:hover{
+    text-decoration: underline;
+}
+
+.second-img{
+    display: flex;
+}
+.second-text{
+   padding: 6%; 
+}
+.second-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+
+}
+.second-text h2{
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(0, 0, 0);
+}
+.second-text p{
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+.second-text{
+     color: rgb(1, 78, 116);
+     font-size: 12px;
+}
+.second-text a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100px;
+    color: rgb(1, 78, 116);
+}
+.second-text a:hover{
+    text-decoration: underline;
+}
+
+.logo2 img{
+    width: 525px;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.third-img{
+    display: flex;
+}
+.logo3 img{
+     width: 525px;
+    height: 550px;
+    object-fit: cover;
+   
+}
+ .second-text u{
+    text-decoration: underline;
+    color: #4dabdb;
+}
+.third-text{
+    padding: 6%; 
+}
+.third-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+.third-text u{
+    text-decoration: underline;
+     color: #4dabdb;
+}
+
+.third-text h1{
+    padding-top:60px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: rgb(0, 0, 0);
+}
+
+.third-text p{
+    padding-top:20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+.third-text{
+    font-size: 12px;
+    color: rgb(2, 118, 177);
+}
+.third-text a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100px;
+    color: rgb(2, 118, 177);
+}
+.third-text a:hover{
+    text-decoration: underline;
+}
+
+.experience{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(2, 118, 177);
+}
+
+.experience h3{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 72px;
+    color: rgb(20, 20, 20);
+}
+.experience h5{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+}
+.experience a{
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 90px;
+    color: rgb(2, 118, 177);
+}
+/* End of section Three */
+
+
+
+/* Beginning of section four */
+
+
+
+.explore{
+    gap: 100px;
+    padding: 30px;
+    display: flex;
+    text-align: left;
+   justify-content: center;
+   
+}
+.protect{
+   text-align: center;
+   margin-top: 70px;
+
+    
+}
+.explored img{
+    width: 50px;
+
+
+  
+}
+
+.explored {
+    width: 300px;
+}
+.explored h2{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(20, 20, 20);
+  
+  
+}
+/* .explored h3{
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 41.6px;
+  color: rgb(20, 20, 20);
+
+} */
+
+.explored p{
+    font-size: 15px;
+   font-weight: 500;
+   line-height: 24px;
+   color: rgb(20, 20, 20);
+  
+}
+
+.start a{
+    font-weight: 400;
+   line-height: 28px;
+   color: rgb(37, 95, 130);
+}
+ .start{
+      color: #026597;
+      font-size: 12px;
+      font-size: 16px;
+
+}
+
+.start a:hover{
+    text-decoration: underline;
+}
+
+
+/* beginning of section five */
+
+.section-five{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 60vh;
+}
+.bank-txt{
+     padding: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.boxessed{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+
+}
+.boxessed img{
+     width: 355px;
+     height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.boxess{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+  
+}
+.boxeds{
+    width: 355px;
+    height: 330px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #d4d4d4;
+    border-radius: 5px;
+
+}
+.boxeds img{
+     width: 355px;
+     height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contained{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.boxess img{
+    width: 355px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box-tex{
+    padding: 20px;
+}
+.box-tex h1{
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 50px;
+  color: rgb(20, 20, 20);
+}
+.box-tex p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+}
+
+/* End of section five */
