@@ -1074,6 +1074,7 @@ text-decoration: underline;
 .ending{
     width: 100%;
     background-color: #ffffff;
+    display: flex;
 }
 
 .navigation{
