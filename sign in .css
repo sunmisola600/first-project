@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 115px;
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid #f4f4f4;
+    background-color: #ffff;
+     padding: 10px; 
+    position: relative;
+    display: flex;
+    
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.nav-link{
+    display: flex;
+    gap: 10px;
+}
+.usa{
+    /* position: relative; */
+    font-size: 12px;
+    height: 50px;
+}
+
+.usa-drop{
+    width: 150px;
+    height: 120px;
+    background-color: #fff;
+    top: 80%;
+    left: 67%;
+    position: absolute;
+    border-radius: 10px;
+   box-shadow: 2px 2px 5px #f4f4f4;
+   border: 2px solid #f4f4f4;
+   opacity: 0;
+   visibility: hidden;
+}
+.usa:hover .usa-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.usa-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(19, 16, 12);
+
+}
+.united{
+   text-decoration: underline;
+}
+.usa-text{
+    padding: 10px;
+    text-align: end;
+}
+.usa-text p:hover{
+    text-decoration: underline;
+}
+.usa-eng h4{
+    font-size: 16px;
+    font-weight: 400;
+   line-height: 18.4px;
+  color: rgb(19, 16, 12);
+}
+.usa-eng .icon{
+    font-size: 12px;
+}
+.usa-eng:hover{
+    text-decoration: underline;
+  
+
+}
+
+.english-drop{
+    width: 100px;
+    height: 80px;
+    background-color: #fff;
+    top: 80%;
+    left: 70%;
+    position: absolute;
+    border-radius: 10px;
+   box-shadow: 2px 2px 5px #f4f4f4;
+   border: 2px solid #f4f4f4;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.english-text{
+    text-align: center;
+    padding: 10px;
+}
+.english-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color: rgb(19, 16, 12);
+}
+.usa-eng:hover .english-drop{
+    opacity: 1;
+    visibility: visible;
+
+
+}
+.english-text:hover{
+    text-decoration: underline;
+}
+.lish{
+    text-decoration: underline;
+}
+
+
+.whole{
+    margin: auto;
+    width: 20%;
+}
+
+.form-tag img{
+    width: 200px;
+    
+}
+.form-tag h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.first-form p{
+    font-size: 14px;
+   font-weight: 600;
+   line-height: 17.9998px;
+   color: rgb(18, 18, 18);
+
+}
+
+.user{
+    width:340px ;
+    height: 50px;
+    background-color: #ffff;
+    border-radius: 5px;
+  
+
+}
+.user:hover{
+    border: 2px solid #0070a8;
+}
+.input{
+    height: 45px;
+    outline: none;
+    width: 300px;
+    border: none;
+}
+.user img{
+    width: 20px;
+}
+.pass-form{
+    padding-top: 20px;
+}
+.pass{
+    display: flex;
+}
+.pass img{
+    width: 20px;
+}
+.pass{
+     width:340px ;
+    height: 50px;
+    background-color: #ffff;
+    border-radius: 5px;
+   
+}
+.put{
+    width: 300px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.check{
+    display: flex ;
+    padding-top: 20px;
+    gap: 10px;
+}
+.bttn a{
+    background-color: #0070a8;
+    color: white;
+    padding: 20px 100px;
+    border-radius: 5px;
+}
+.bttn{
+    padding: 30px;
+
+}
+
+.bore{
+    border: 2px solid grey;
+    margin-top: 40px;
+    padding: 20px;
+}
+.face{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.face p{
+    width: 80%;
+}
+.links {
+    color: #0070a8;
+    padding-left: 50%;
+}
+.forget {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.4px;
+   
+}
+.forget a{
+    color: #0070a8;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.set{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.4px;
+   
+
+}
+.set a:hover{
+    text-decoration: underline;
+}
+.set a{
+    color: #0070a8;
+}
+.whole{
+    border: 1px solid gray;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+    margin-top: 50px;
+   
+}
+.account{
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    
+}
+.for p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+}
+.trade{
+    font-size: 16px;
+   font-weight: 600;
+   line-height: 35px;
+   color: rgb(1, 88, 131);
+}
+
+.house1{
+    width: 25px;
+}
+.us{
+    display: flex;
+    gap: 10px;
+
+  
+}
+.us li a{
+    color: #9b7f66;
+   
+}
+.us li a:hover{
+    text-decoration: underline;
+}
+
+
+nav{
+
+    display: flex;
+    list-style: none;
+    gap: 0px;
+    justify-content: space-evenly;
+    color:#9b7f66 ;
+    width: 70%;
+     margin: auto;
+     align-items: center;
+    
+}
+footer{
+     border-top: 2px solid #f4f4f4;
+     
+}
