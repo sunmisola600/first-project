@@ -837,11 +837,11 @@ text-decoration: underline;
 
 
 .explore{
-    gap: 100px;
+    /* gap: 5px; */
     padding: 30px;
     display: flex;
     text-align: left;
-   justify-content: center;
+   justify-content: space-evenly;
    
 }
 .protect{
@@ -979,5 +979,1714 @@ text-decoration: underline;
     line-height: 21px;
     color: rgb(20, 20, 20);
 }
+.box-texed{
+     padding: 10px;
+
+}
+
+.box-texed h4{
+     font-size: 20px;
+     font-weight: 300;
+    line-height: 30px;
+     color: rgb(20, 20, 20);
+
+}
+.box-texed p{
+      font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(20, 20, 20);
+
+}
 
 /* End of section five */
+
+
+
+
+
+/* beginning of section six */
+
+.section-six{
+    background-color: #013d5b;
+    padding-bottom: 8%;
+}
+.six-text{
+    padding: 70px;
+    text-align: center;
+} 
+.six-text h1{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 72px;
+    color: rgb(255, 255, 255);
+}
+.six-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    width: 53%;
+    margin: auto;
+}
+
+.six-input{
+    text-align: center;
+    /* margin-right: 30%; */
+    width: 80%;
+    margin: auto;
+}
+.six-input p{
+    /* text-align: left; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    padding-right: 36%;
+}
+.put{
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid #ffffff;
+}
+
+
+
+/* Beginning of footer */
+.footer{
+    width: 100%;
+    background-color: #525252;
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+}
+.footed{
+    width: 60%;
+    margin: auto;
+
+}
+.inner{
+    background-color:#525252 ;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+.main{
+    padding-left: 12px;
+}
+.main li{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+.sub-inner h5{
+    line-height: 30px;
+}
+/* u{
+    text-decoration: underline;
+} */
+.sub-inner{
+    background-color: #525252;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    display: none;
+    padding-bottom: 40px;
+}
+.mark{
+    display: none;  
+}
+.pus{
+    display: block;
+}
+
+
+.footer:focus-within .sub-inner{
+   display: block;
+   
+}
+.footer:focus-within .mark{
+    display: block;
+}
+.footer:focus-within .plus{
+    display: none;
+}
+.footer:focus-within .sub-inner{
+    border-radius: 20px 20px 0 0;
+
+} 
+/* End of footer section */
+
+
+
+
+/* Beginning of Ending Sectiom */
+.ending{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.nav-tex{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(105, 105, 105);
+}
+.p-link{
+    border-right: 1.5px solid #e4e5e8;
+    padding: 3.5px;
+
+}
+.mid-nav{
+    display: flex;
+    gap: 20px;
+}
+.mid-nav a{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(105, 105, 105);
+
+
+}
+.p-link:hover{
+    text-decoration: underline;
+}
+.california img{
+    width: 20px;
+}
+.california{
+    display: flex;
+    gap: 10px;
+     border-right: 1.5px solid #e4e5e8;
+    padding: 3.5px;
+}
+.california a:hover{
+    text-decoration: underline;
+}
+
+.house1{
+    width: 20px;
+}
+.house2{
+    width: 30px;
+}
+
+.parent{
+    display: none;
+    border-bottom: 1px solid #e4e5e8;
+   
+    
+}
+
+.image-cap{
+    width: 115px;
+}
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+  
+}
+
+
+.picture{
+    text-align: center;
+}
+.picture p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: normal; 
+    color: rgb(20,20,20);
+}
+.bar-drop{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    height: 500px;
+    left: 0;
+    top: 16%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0.5px 50px;
+    
+   
+    
+}
+.child{
+    border-bottom: 1px solid #e4e5e8;
+    padding-bottom: 25px;
+   
+   
+
+}
+.bar-flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    
+   
+    
+}
+.bar-flex h1{
+    font-size: 20.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+
+}
+
+.bar:hover .bar-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.fact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+}
+.parent-fact{
+    padding-top: 20px;
+}
+.fact p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+}
+.fact p:hover{
+    color: #237cb1;
+}
+.space{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.detailed{
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(138, 122, 122);
+   
+}
+.summary-texts{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.summary-texts h2{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 60px;
+     color: rgb(20, 20, 20);
+  
+}
+.summary-texts:hover{
+    background-color: #e6e6e6;
+}
+.pet p{
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   color: rgb(20, 20, 20);
+
+}
+.pets{
+    color: #5bc9ff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(2, 118, 177);
+}
+.pets:hover{
+    text-decoration: underline;
+}
+
+
+.sectionedd{
+    display: flex;
+    width: 59.4%;
+    margin: auto;
+    gap: 40px;
+    padding: 80px 10px;
+    margin-left: 20%;
+    
+   
+}
+.sectioned h5{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    
+}
+.detail-img img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+
+.sector-section{
+     background-color: #3d3d3d;
+     padding-bottom: 40px;
+     display: none;
+    
+
+}
+.sector-made img{
+    border-radius: 50%;
+    width: 20px;
+}
+.sector-made{
+    width: 59.4%;
+    margin: auto;
+}
+details{
+    background-color: #3d3d3d;
+    padding-top: 40px;
+}
+
+.sectors{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 59.4%;
+    margin: auto;
+   color: rgb(212, 212, 212);
+}
+.sector-txt {
+    width: 59.4%;
+    margin: auto;
+    padding-top: 20px;
+   color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 44px;
+     border-bottom: 1.5px solid rgb(226, 216, 216);
+
+}
+.sector-icons{
+    width: 10%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    color: rgb(212, 212, 212);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1391px) {
+
+  /* GLOBAL */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  /* ── Header ── */
+  nav {
+    width: 90%;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .capital-links {
+    gap: 8px;
+    margin-right: 0;
+    flex-wrap: nowrap;
+  }
+
+  .capital-links li a {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .capital-icons {
+    font-size: 13px;
+    gap: 15px;
+  }
+
+  /* Dropdown: .third-cardss hardcoded width:400px causes bleed */
+  .third-cardss {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .img2 {
+    width: 140px;
+    flex-shrink: 0;
+  }
+
+  .wrapper,
+  .wrapped {
+    gap: 4%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* ── Account type bar ── */
+  .account-type {
+    height: auto;
+    padding-bottom: 16px;
+  }
+
+  .account-text {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .account-image {
+    gap: 60px;
+  }
+
+  /* ── Legend ── */
+  /* left:20.55% bleeds right at this width — pull in */
+  .box {
+    left: 8%;
+    width: 380px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  /* ── Section one: Find a Bank Account ── */
+  .section-two {
+    width: 100%;
+   
+  }
+
+  .banking-journey h2 {
+    font-size: 32px;
+  }
+
+  /* .boxes have fixed width:580px — causes overflow at 1391px */
+  .container {
+    gap: 20px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .boxes {
+    width: 340px;
+    height: auto;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+
+  /* ── Cafe section ── */
+  .cafe {
+    gap: 40px;
+  }
+
+  .cafe-image img {
+    width: 420px;
+  }
+
+  .cafe-text h4 {
+    font-size: 28px;
+  }
+
+  /* ── Section three: big-image ── */
+  /* width:55% is OK but logo2/logo3 imgs are 525px fixed */
+  .big-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .logo2 img,
+  .logo3 img {
+    width: 400px;
+    height: 450px;
+  }
+
+  .second-text h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .third-text h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .experience h3 {
+    font-size: 28px;
+  }
+
+  .experience h5 {
+    width: 65%;
+  }
+
+  /* ── Section four: sectioned ── */
+  /* margin-left:20% combined with width:59.4% overflows */
+  .sectioned {
+    width: 80%;
+    margin: auto;
+    margin-left: auto;
+    padding: 60px 10px;
+    gap: 30px;
+  }
+
+  .detail-img img {
+    width: 480px;
+    height: 480px;
+  }
+
+  .summary-text h2 {
+    font-size: 26px;
+  }
+
+  /* ── Section five ── */
+  /* height:60vh clips content */
+  .section-five {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    width: 100%;
+    height: 160px;
+  }
+
+  .contained {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* ── Section six ── */
+  .six-text h1 {
+    font-size: 32px;
+  }
+
+  .six-text p {
+    width: 70%;
+  }
+
+  .put {
+    width: 560px;
+  }
+
+  /* ── Sector section (accordion) ── */
+  .sector-section {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .sectors {
+    width: 90%;
+  }
+
+  .sector-txt {
+    width: 90%;
+  }
+
+  .sector-icons {
+    width: auto;
+    gap: 20px;
+  }
+
+  /* ── Footnote ── */
+  .footed {
+    width: 85%;
+    box-sizing: border-box;
+  }
+
+  /* ── Ending nav ── */
+  .navigation {
+    flex-wrap: wrap;
+    padding: 12px 5%;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+
+/* ─── 1042px ─────────────────────────────────
+   Small desktop / large tablet landscape
+   ─────────────────────────────────────────── */
+@media (max-width: 1042px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* ── Header ── */
+  nav {
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+  }
+  .parent{
+    display: block;
+  }
+
+  .capital-links {
+    gap: 5px;
+  }
+
+  .capital-links li a {
+    font-size: 12px;
+  }
+
+  .capital-icons {
+    font-size: 12px;
+    gap: 12px;
+  }
+
+  .drop-cards {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .wrapper,
+  .wrapped {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px;
+  }
+
+  .third-cardss {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* ── Account type ── */
+  .account-type {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .account-text {
+    width: 92%;
+  }
+
+  .account-image {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  /* ── Legend ── */
+  .legend-logo img {
+    height: 420px;
+  }
+
+  .box {
+    left: 5%;
+    width: 340px;
+    height: auto;
+    padding: 24px;
+    top: 30%;
+  }
+
+  .bx-text h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  /* ── Find a Bank Account ── */
+  .section-two {
+    width: 92%;
+    padding: 30px 20px;
+  }
+
+  .banking-journey h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .banking-journey {
+    font-size: 28px;
+    padding-top: 20px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 24px;
+    justify-content: center;
+  }
+
+  .boxes {
+    width: 280px;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  .bank-link {
+    padding-top: 40px;
+  }
+
+  /* ── Cafe section ── */
+  .cafe {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+
+  .cafe-image img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .cafe-text {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .cafe-text h4 {
+    font-size: 26px;
+  }
+
+  /* ── Section three ── */
+  .big-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .second-img,
+  .third-img {
+    flex-direction: column;
+  }
+
+  .logo2 img,
+  .logo3 img {
+    width: 100%;
+    height: 340px;
+  }
+
+  .second-text,
+  .third-text {
+    padding: 5%;
+  }
+
+  .second-text h2 {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 20px;
+  }
+
+  .third-text h1 {
+    font-size: 28px;
+    line-height: 40px;
+    padding-top: 20px;
+  }
+
+  .experience h3 {
+    font-size: 26px;
+    line-height: 52px;
+  }
+
+  .experience h5 {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  /* ── Sectioned ── */
+  .sectioned {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    padding: 40px 16px;
+    gap: 20px;
+  }
+
+  .detail-img img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .summary-text h2 {
+    font-size: 22px;
+    line-height: 50px;
+  }
+
+  /* ── Section five ── */
+  .section-five {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .bank-txt {
+    padding: 40px 20px 20px;
+  }
+
+  .contained {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: 280px;
+    height: auto;
+  }
+
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    width: 280px;
+    height: 160px;
+  }
+
+  /* ── Protect section ── */
+  .explore {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .explored {
+    width: 80%;
+  }
+
+  /* ── Section six ── */
+  .six-text {
+    padding: 50px 20px;
+  }
+
+  .six-text h1 {
+    font-size: 28px;
+  }
+
+  .six-text p {
+    width: 85%;
+  }
+
+  .put {
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .six-input p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  /* ── Sector, footnote, ending ── */
+  .sectors {
+    width: 90%;
+  }
+
+  .sector-txt {
+    width: 90%;
+  }
+
+  .footed {
+    width: 90%;
+  }
+
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5%;
+    gap: 10px;
+  }
+
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .ending-image {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+
+/* ─── 776px ──────────────────────────────────
+   Tablet portrait — hide desktop nav, full
+   single-column layout, kill all overflows
+   ─────────────────────────────────────────── */
+@media (max-width: 776px) {
+
+  /* GLOBAL */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  header,
+  .parent,
+  .account-type,
+  legend,
+  .section-two,
+  .section-three,
+  .sectioned,
+  #sectiontwo,
+  .section-five,
+  .section-six,
+  .sector-section,
+  .footer,
+  .ending {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ── Header: switch to mobile bar ── */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav {
+    width: 100%;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  /* Hide desktop nav & icons */
+  .capital-links {
+    display: none;
+  }
+
+  .capital-icons {
+    display: none;
+  }
+
+  /* Hide all dropdown panels */
+  .drop-cards {
+    display: none;
+  }
+
+  .third-cardss {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Show mobile nav bar */
+  .parent {
+    display: block;
+  }
+
+  .second-nav {
+    padding: 6px 16px;
+    box-sizing: border-box;
+  }
+
+  /* ── Account type ── */
+  .account-type {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .account-text {
+    width: 100%;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
+  }
+
+  .account-typ h3 {
+    font-size: 18px;
+  }
+
+  .account-image {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 16px;
+  }
+
+  /* ── Legend ── */
+  legend {
+    display: block;
+    overflow: hidden;
+  }
+
+  .legend-logo img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Pull box out of absolute — it was bleeding */
+  .box {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: calc(100% - 32px);
+    max-width: 100%;
+    height: auto;
+    margin: -40px auto 0;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    box-sizing: border-box;
+  }
+
+  .bx-text h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .bx-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* ── Find a Bank Account ── */
+  .section-two {
+    width: 100%;
+    padding: 30px 16px;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .banking-journey {
+    font-size: 22px;
+    padding-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .banking-journey h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  /* Remove fixed width containers — main overflow source */
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+  }
+
+  .boxes {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .bank-link {
+    padding-top: 30px;
+  }
+
+  /* ── Cafe section ── */
+  .cafe {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .cafe-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .cafe-text {
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .cafe-text h4 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .cafe-text p {
+    font-size: 14px;
+    padding-top: 12px;
+  }
+
+  /* ── Section three ── */
+  .section-three {
+    margin-top: 40px;
+    overflow: hidden;
+  }
+
+  .sect-bank h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .big-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .second-img,
+  .third-img {
+    flex-direction: column;
+  }
+
+  .logo2 img,
+  .logo3 img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .second-text,
+  .third-text {
+    padding: 24px 16px;
+  }
+
+  .second-text h2 {
+    font-size: 22px;
+    line-height: 34px;
+    padding-top: 16px;
+  }
+
+  .third-text h1 {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 16px;
+  }
+
+  .third-text h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .experience {
+    margin-top: 40px;
+    padding: 0 16px;
+  }
+
+  .experience h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .experience h5 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* ── Sectioned (ATM / cash / deposit) ── */
+  /* margin-left:20% in base CSS overflows — kill it */
+  .sectioned {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    padding: 40px 16px;
+    gap: 0;
+    box-sizing: border-box;
+  }
+
+  .whole {
+    width: 100%;
+  }
+
+  .summary-text h2 {
+    font-size: 20px;
+    line-height: 48px;
+  }
+
+  .summary-text {
+    gap: 20px;
+  }
+
+  /* Hide the big side image — stacks awkwardly */
+  .detail-img {
+    display: none;
+  }
+
+  /* ── Protect section ── */
+  #sectiontwo {
+    overflow: hidden;
+  }
+
+  .protect {
+    margin-top: 40px;
+  }
+
+  .explore {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 16px;
+  }
+
+  .explored {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .explored h2 {
+    font-size: 24px;
+  }
+
+  /* ── Section five ── */
+  .section-five {
+    height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .bank-txt {
+    padding: 30px 16px 16px;
+  }
+
+  .contained {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  /* ── Section six ── */
+  .section-six {
+    padding-bottom: 40px;
+  }
+
+  .six-text {
+    padding: 40px 16px 20px;
+  }
+
+  .six-text h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .six-text p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .six-input {
+    width: 94%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .six-input p {
+    padding-right: 0;
+    text-align: left;
+  }
+
+  /* Input was 700px fixed — major overflow cause */
+  .put {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* ── Sector section (accordion) ── */
+  .sector-section {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+
+  .sector-made {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .sectors {
+    width: 90%;
+  }
+
+  .sector-txt {
+    width: 90%;
+  }
+
+  .sector-icons {
+    width: auto;
+    gap: 24px;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  /* ── Footnote ── */
+  .footed {
+    width: 100%;
+    padding: 20px 16px;
+    box-sizing: border-box;
+  }
+
+  /* ── Ending nav ── */
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ending-image {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+}
+
+
+/* ─── 480px ──────────────────────────────────
+   Mobile: compact spacing, large tap targets
+   ─────────────────────────────────────────── */
+@media (max-width: 480px) {
+
+  /* ── Header ── */
+  nav {
+    padding: 10px 16px;
+  }
+
+  .capital-logo {
+    width: 90px;
+  }
+
+  .second-nav {
+    padding: 6px 16px;
+  }
+
+  .image-cap {
+    width: 90px;
+  }
+
+  .bar-flex h1 {
+    font-size: 16px;
+    line-height: 52px;
+  }
+
+  .bar-drop {
+    padding: 0 16px;
+    height: auto;
+    top: 60px;
+  }
+
+  /* ── Account type ── */
+  .account-typ h3 {
+    font-size: 16px;
+  }
+
+  .account-image {
+    gap: 14px;
+    justify-content: space-around;
+  }
+
+  .checking img,
+  .checkings img,
+  .checked img,
+  .check img {
+    width: 44px;
+  }
+
+  /* ── Legend ── */
+  .legend-logo img {
+    height: 200px;
+  }
+
+  .box {
+    width: calc(100% - 24px);
+    margin-top: -30px;
+    padding: 16px;
+  }
+
+  .bx-text h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .bx-text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* ── Find a Bank Account ── */
+  .section-two {
+    padding: 24px 12px;
+  }
+
+  .banking-journey h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .boxes {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .check-text2 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .check-text3 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* ── Cafe ── */
+  .cafe-image img {
+    height: 220px;
+  }
+
+  .cafe-text h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cafe-text p {
+    font-size: 13px;
+  }
+
+  /* ── Section three ── */
+  .sect-bank h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .second-text h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .third-text h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .experience h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .experience h5 {
+    font-size: 13px;
+  }
+
+  /* ── Sectioned ── */
+  .sectioned {
+    padding: 30px 12px;
+  }
+
+  .summary-text h2 {
+    font-size: 18px;
+    line-height: 44px;
+  }
+
+  .pet p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* ── Protect ── */
+  .protect {
+    margin-top: 30px;
+  }
+
+  .explored h2 {
+    font-size: 20px;
+  }
+
+  .explored p {
+    font-size: 14px;
+  }
+
+  /* ── Section five ── */
+  .bank-txt {
+    padding: 24px 12px 12px;
+    font-size: 14px;
+  }
+
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: 100%;
+  }
+
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    height: 160px;
+  }
+
+  .box-tex h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .box-texed h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* ── Section six ── */
+  .six-text {
+    padding: 30px 12px 16px;
+  }
+
+  .six-text h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .six-text p {
+    font-size: 13px;
+  }
+
+  .six-input {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .put {
+    height: 46px;
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  /* ── Sector section ── */
+  .sectors {
+    width: 94%;
+  }
+
+  .sector-txt {
+    width: 94%;
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  .sector-icons {
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  /* ── Footnote ── */
+  .footed {
+    padding: 16px 12px;
+  }
+
+  .inner h2 {
+    font-size: 15px;
+  }
+
+  .sub-inner h5 {
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .main li {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  /* ── Ending nav ── */
+  .navigation {
+    padding: 14px 12px;
+    gap: 10px;
+  }
+
+  .nav-tex p {
+    font-size: 11px;
+  }
+
+  .mid-nav {
+    gap: 6px;
+  }
+
+  .mid-nav a {
+    font-size: 11px;
+  }
+
+  .ending-image {
+    gap: 10px;
+  }
+
+  .house1 {
+    width: 16px;
+  }
+
+  .house2 {
+    width: 24px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -35,39 +35,100 @@ nav{
   
   
 }
-
-/* @media (max-width:1366px){
-    .capital-logo img{
-        width: 200px;
-    }
-
-    nav{
-        margin: auto;
-        width: 95%;
-        
-    }
+.parent{
+    display: none;
+    border-bottom: 1px solid #e4e5e8;
+   
     
 }
 
-@media (max-width:1020px) {
+.image-cap{
+    width: 115px;
+}
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
   
-} */
+}
 
-    
 
-/* @media (max-width:1020px) {
-    .personal{
-        display: none;
-    }
-    .capital-logo .icon{
-        display: block;
-    }
-    .capital-logo{
-        display: flex;
-        justify-content: space-around;
-    }
+.picture{
+    text-align: center;
+}
+.picture p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: normal; 
+    color: rgb(20,20,20);
+}
+.bar-drop{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    height: 700px;
+    left: 0;
+    top: 16%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0.5px 50px;
     
-} */
+   
+    
+}
+.child{
+    border-bottom: 1px solid #e4e5e8;
+    padding-bottom: 25px;
+   
+   
+
+}
+.bar-flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    
+   
+    
+}
+.bar-flex h1{
+    font-size: 20.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+
+}
+
+.bar:hover .bar-drop{
+    opacity: 1;
+    visibility: visible;
+}
+.fact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+}
+.parent-fact{
+    padding-top: 20px;
+}
+.fact p{
+     font-size: 13.3333px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(20,20,20);
+}
+.fact p:hover{
+    color: #237cb1;
+}
+.space{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .capital-links{
     display: flex;
     gap: 15px;
@@ -417,6 +478,10 @@ text-decoration: underline;
 .sub-header{
     background-color: #f4f4f4;
     height: 50px;
+}
+.sub-nav{
+    width: 59.4%;
+    margin: auto;
 }
 
 .small-linkss{
@@ -810,6 +875,9 @@ text-decoration: underline;
 .box-texeds{
     padding: 20px;
 }
+.box-texed{
+    padding: 25px;
+}
 
 .bx img{
    width: 18px;
@@ -828,6 +896,42 @@ text-decoration: underline;
    line-height: 35px;
    color: rgb(20, 20, 20);
 }
+.bxx img{
+     width: 18px;
+   height: 15px;
+   object-fit: cover;
+
+}
+.bxx{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 11%;
+
+}
+.bxx h6{
+     font-size: 14px;
+   font-weight: 400;
+   line-height: 35px;
+   color: rgb(20, 20, 20);
+}
+.box-texedd {
+    padding: 16px;
+}
+.box-texedd h6{
+     font-size: 13px;
+   font-weight: 500;
+   line-height: 30px;
+   color: rgb(20, 20, 20);
+
+}
+.box-texedd p{
+    font-size: 23px;
+   font-weight: 300;
+   line-height: 29px;
+   color: rgb(20, 20, 20);
+}
+
 
 .insight-word{
     border-bottom: 1px solid #d4d4d4;
@@ -1094,7 +1198,7 @@ text-decoration: underline;
     padding-bottom: 60px;
 }
 .footed{
-    width: 60%;
+    width: 62%;
     margin: auto;
     padding: 25px;
 
@@ -1116,10 +1220,11 @@ text-decoration: underline;
 .sub-inner{
     background-color: #525252;
     width: 100%;
-    height: 60px;
+    /* height: 60px; */
     color: rgb(255, 255, 255);
     text-align: start;
     display: none;
+    padding-bottom: 18px;
  
 }
 .main{
@@ -1160,7 +1265,7 @@ text-decoration: underline;
 
 
 
-* Beginning of Ending section */
+/* Beginning of Ending section */
 
 .ending{
     width: 100%;
@@ -1217,4 +1322,1441 @@ text-decoration: underline;
     width: 30px;
 }
 
+
+
+.grand-parent{
+   background-color: #f4f4f4;
+    display: none;
+    width: 100%;
+    padding-bottom: 10px;
+    
+   
+}
+.sub-parent{
+    padding-top: 20px;
+}
+.sub-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 59.4%;
+    margin: auto;
+    align-items: center;
+}
+.sub-parent a{
+    background-color:#237cb1;
+    padding: 20px 15px;
+    color: #ffffff;
+
+}
+.section-drop{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    height: 1000px;
+    left: 0;
+    top: 12%;
+    opacity: 0;
+    visibility: hidden; 
+    z-index: 99;
+
+}
+.sects:hover .section-drop{
+    opacity: 1;
+    visibility: visible;
+
+}
+.section-texx{
+    padding: 20px 40px;
+}
+
+.section-texx p{
+    font-size: 16px;
+    line-height: 60px;
+    font-weight: 300;
+    border-bottom: 1.5px solid rgb(226, 216, 216);
+    color: #3f3e3e;
+}
+.sector-section{
+     background-color: #3d3d3d;
+     padding-bottom: 40px;
+     display: none;
+    
+
+}
+.sector-made img{
+    border-radius: 50%;
+    width: 20px;
+}
+.sector-made{
+    width: 59.4%;
+    margin: auto;
+}
+details{
+    background-color: #3d3d3d;
+    padding-top: 40px;
+}
+
+.sectors{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 59.4%;
+    margin: auto;
+   color: rgb(212, 212, 212);
+}
+.sector-txt {
+    width: 59.4%;
+    margin: auto;
+    padding-top: 20px;
+   color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 44px;
+     border-bottom: 1.5px solid rgb(226, 216, 216);
+
+}
+.sector-icons{
+    width: 10%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    color: rgb(212, 212, 212);
+  
+}
 /* End of ending section */
+
+
+
+
+
+
+
+@media (max-width: 1391px) {
+     html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+ 
+  nav {
+    width: 90%;
+    gap: 10px;
+    box-sizing: border-box;
+  
+  }
+  .sub-header{
+     width: 140%;
+   
+     
+  }
+ 
+  .capital-links {
+     gap: 8px;
+    margin-right: 0;
+    flex-wrap: nowrap;
+  }
+ 
+  .capital-links li a {
+   font-size: 13px;
+    white-space: nowrap;
+  }
+ 
+  .capital-icons {
+    font-size: 13px;
+    gap: 15px;
+    white-space: nowrap;
+  }
+  .glass-drop{
+    left: 82%;
+    top: 5%;
+  }
+  .question-drop{
+    left: 83%;
+  }
+  .location-drop{
+    left: 85%;
+  }
+  
+ 
+  /* Dropdowns */
+
+   .third-cardss {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+   .img2 {
+    width: 140px;
+    flex-shrink: 0;
+  }
+ 
+  .wrapper,
+  .wrapped {
+     gap: 4%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+ 
+  /* Legend */
+  .box {
+    left: 10%;
+    width: 420px;
+  }
+ 
+  /* Sub-header nav */
+  .sub-nav {
+    
+   width: 90%;
+    white-space: nowrap;
+  }
+   .sub-header {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .sub-header::-webkit-scrollbar { display: none; }
+ 
+  .small-linkss {
+   
+   gap: 14px;
+    flex-wrap: nowrap;
+  }
+ 
+  /* Account section */
+  .account-text {
+    width: 80%;
+  }
+ 
+  .account-image {
+    gap: 25px;
+  }
+
+    .grand-parent {
+    max-width: 100%;
+    overflow: hidden;
+  }
+   .sub-parent {
+    width: 90%;
+  }
+   .section-drop {
+    overflow: hidden;
+  }
+  .box {
+    left: 8%;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+  }
+   .bx-text h3 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+    .account-type {
+    height: auto;
+    padding-bottom: 40px;
+  }
+    .account-text {
+    width: 90%;
+    box-sizing: border-box;
+  }
+    .account-image {
+    gap: 20px;
+  }
+ 
+ 
+  /* Section one — industry cards */
+  .section-one {
+     height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+ 
+  .boxessed,
+  .boxess,
+  .boxeds {
+   width: 280px;
+    height: auto;
+    box-sizing: border-box;
+  }
+ 
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+     width: 100%;
+    height: 160px;
+  }
+ 
+  /* Section two */
+  .commercial {
+    width: 80%;
+  }
+ 
+  .comercial-text h1 {
+    width: 85%;
+    font-size: 28px;
+    line-height: 42px;
+  }
+    .contained {
+    gap: 20px;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+ 
+  /* Section three */
+ .commercial {
+    width: 90%;
+    box-sizing: border-box;
+  }
+    .comercial-text h1 {
+    width: 90%;
+    font-size: 28px;
+    line-height: 42px;
+  }
+    .second-commercial {
+    gap: 30px;
+  }
+    .comm-text {
+    width: 32%;
+    box-sizing: border-box;
+  }
+    .section-three {
+    overflow: hidden;
+  }
+    .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+    gap: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+ 
+  .insight {
+    width: 260px;
+    height: auto;
+    box-sizing: border-box;
+  }
+ 
+  .insight img {
+    width: 100%;
+    height: 160px;
+  }
+   .insight-text {
+    width: 260px;
+    box-sizing: border-box;
+  }
+  .bx img{
+    width: 15px;
+    height: 15px;
+  }
+ .bxx img{
+    width: 15px;
+    height: 15px;
+ }
+ 
+  /* Section four / footer links */
+  .section-four {
+    height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+  .linking {
+     width: 90%;
+    gap: 0;
+    justify-content: space-between;
+    padding: 40px 0 20px;
+    box-sizing: border-box;
+  }
+   .linkings-drop {
+    right: auto;
+    left: 0;
+  }
+   .instagram-drop {
+    right: auto;
+    left: 0;
+  }
+ 
+  .word {
+    width: 90%;
+    gap: 16px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  
+  .words {
+    min-width: 100px;
+  }
+ 
+  /* Ending footer */
+  .navigation {
+    flex-wrap: wrap;
+    padding: 12px 5%;
+    gap: 10px;
+  }
+  .sector-section {
+    max-width: 100%;
+    overflow: hidden;
+  }
+   .sectors {
+    width: 90%;
+  }
+ 
+  .sector-txt {
+    width: 90%;
+  }
+ 
+  .sector-icons {
+    width: auto;
+    gap: 20px;
+  }
+ 
+  /* Footnote button */
+  .footed {
+     width: 90%;
+    box-sizing: border-box;
+  }
+   .navigation {
+    flex-wrap: wrap;
+    padding: 12px 5%;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+ 
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+ 
+ 
+/* ─── 1042px ─────────────────────────────────
+   Small desktop / large tablet landscape:
+   collapse to 2-column drops, shrink hero box
+   ─────────────────────────────────────────── */
+@media (max-width: 1042px) {
+    
+ 
+  nav {
+     width: 95%;
+    padding: 10px 10px;
+    display: none;
+  }
+  .sub-header{
+    display: none;
+  }
+  .grand-parent{
+    display: block;
+}
+.sub-parent{
+    width: 92%;
+}
+
+  .parent{
+    display: block;
+  }
+  .bar-drop{
+    position: absolute;
+    z-index: 100;
+    top: 6%;
+  }
+ 
+  .capital-links {
+    gap: 5px;
+  }
+ 
+  .capital-links li a {
+    font-size: 12px;
+  }
+ 
+  .capital-icons {
+    font-size: 12px;
+    gap: 12px;
+  }
+ 
+  /* Dropdown panels — allow scroll */
+  .drop-cards {
+    height: auto;
+    overflow-y: auto;
+  }
+ 
+  .wrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+ 
+  .wrapped {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+ 
+  .wrap-card {
+    min-width: 200px;
+  }
+ 
+  /* Sub header */
+  .sub-header {
+    overflow-x: auto;
+  }
+ 
+  .small-linkss {
+    white-space: nowrap;
+    padding: 0 16px;
+    gap: 18px;
+  }
+ 
+  .small-linkss li a {
+    font-size: 13px;
+  }
+  .grand-parent {
+    overflow: hidden;
+  }
+ 
+  .sub-parent {
+    width: 90%;
+  }
+ 
+  /* Legend */
+  .legend-logo img {
+    height: 420px;
+  }
+ 
+  .box {
+    width: 360px;
+    height: auto;
+    padding: 25px;
+    top: 22%;
+    left: 5%;
+  }
+ 
+  .bx-text h3 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+ 
+  .bx-text p {
+    font-size: 14px;
+  }
+  .bxx img{
+    width: 15px;
+    height: 15px;
+  }
+  /* Account section */
+  .account-type {
+    height: auto;
+    padding-bottom: 40px;
+  }
+ 
+  .account-text {
+    width: 90%;
+    padding-top: 40px;
+  }
+ 
+  .account-image {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+ 
+  .checking,
+  .checkings,
+  .checkinged,
+  .checkingss {
+    width: 42%;
+  }
+ 
+  /* Section one */
+  .section-one {
+    height: auto;
+    padding-bottom: 50px;
+  }
+ 
+  .contained {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: 280px;
+    height: auto;
+  }
+ 
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    width: 280px;
+    height: 160px;
+  }
+ 
+  /* Section two */
+  .commercial {
+    width: 90%;
+    padding: 30px 20px;
+  }
+ 
+  .comercial-text h1 {
+    width: 95%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+ 
+  .second-commercial {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+ 
+  .comm-text {
+    width: 100%;
+  }
+ 
+  /* Section three */
+  .container {
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  .insight {
+    width: 280px;
+    height: auto;
+  }
+ 
+  .insight img {
+    width: 280px;
+  }
+ 
+  .insight-text {
+    width: 280px;
+  }
+    .bx img{
+    width: 15px;
+    height: 15px;
+  }
+ 
+  /* Section four */
+  .section-four{
+     height: auto;
+    padding-bottom: 30px;
+    display: none;
+  }
+  .sector-section{
+    display: block;
+  }
+ 
+  .linking {
+    width: 90%;
+    gap: 50%;
+  }
+ 
+  .word {
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+ 
+  .words {
+    min-width: 140px;
+  }
+  .sectors {
+    width: 90%;
+  }
+ 
+  .sector-txt {
+    width: 90%;
+  }
+ .sector-made{
+    width: 90%;
+    padding-top: 20px;
+ }
+ .bxx img{
+    width: 15px;
+    height: 15px;
+ }
+  .sector-icons {
+    width: auto;
+    justify-content: center;
+    padding: 10px;
+  }
+ 
+  /* Footnote */
+  .footed {
+    width: 90%;
+  }
+ 
+  /* Ending */
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5%;
+    gap: 10px;
+  }
+ 
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+ 
+  .ending-image {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+ 
+
+
+
+/* ─── 776px ──────────────────────────────────
+   Tablet portrait: hide desktop nav, show hamburger,
+   stack all sections single-column, fix overflow
+   ─────────────────────────────────────────── */
+@media (max-width: 776px) {
+
+  /* ---- GLOBAL OVERFLOW FIX ---- */
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  /* Every direct child section must stay within viewport */
+  header,
+  .parent,
+  .sub-header,
+  legend,
+  .account-type,
+  .section-one,
+  .section-two,
+  .section-three,
+  .section-four,
+  .footer,
+  .ending {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ---- Header: switch to mobile bar ---- */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav {
+    width: 100%;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .capital-logo .icon {
+    display: block;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  /* Hide desktop nav links & icons */
+  .capital-links {
+    display: none;
+  }
+
+  .capital-icons {
+    display: none;
+  }
+
+  /* Hide ALL dropdown panels on mobile — they need JS to open */
+  .drop-cards {
+    display: none;
+  }
+
+  /* Also kill the fixed-width card inside dropdowns that caused overflow */
+  .third-cardss {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Show mobile nav bar */
+  .parent {
+    display: block;
+  }
+
+  .second-nav {
+    padding: 6px 16px;
+    box-sizing: border-box;
+  }
+
+  /* ---- Sub-header: horizontal scroll instead of overflow ---- */
+  .sub-header {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: auto;
+    padding: 10px 0;
+    /* hide scrollbar visually but keep scroll */
+    scrollbar-width: none;
+  }
+  .sub-header::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sub-nav {
+    padding: 0 16px;
+    min-width: max-content; /* lets links scroll instead of wrapping */
+  }
+
+  .small-linkss {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    gap: 16px;
+    padding-bottom: 4px;
+  }
+
+  .small-linkss li a {
+    font-size: 13px;
+  }
+  .grand-parent {
+    display: none;
+  }
+
+  /* ---- Legend ---- */
+  legend {
+    display: block;
+    overflow: hidden;
+  }
+
+  .legend-logo {
+    position: relative;
+  }
+
+  .legend-logo img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  /* Pull box OUT of absolute positioning — it caused horizontal bleed */
+  .box {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin: -50px auto 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+  }
+ 
+  .bx-text h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .bx-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* ---- Account type ---- */
+  .account-type {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .account-text {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 16px 0;
+    box-sizing: border-box;
+  }
+
+  .account-image {
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+  }
+
+  .checking,
+  .checkings,
+  .checkinged,
+  .checkingss {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .checking img,
+  .checkings img,
+  .checkinged img,
+  .checkingss img {
+    width: 44px;
+    flex-shrink: 0;
+  }
+
+  .check-text {
+    padding-top: 0;
+  }
+
+  .check-text h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .check-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* ---- Section one: Industry cards ---- */
+  .section-one {
+    height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .bank-txt {
+    padding: 40px 16px 20px;
+  }
+
+  .contained {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
+  }
+
+  /* Cards fill the column, no fixed pixel widths */
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .boxed-link {
+    padding: 30px 16px;
+  }
+
+  /* ---- Section two ---- */
+  .section-two {
+    padding-bottom: 40px;
+  }
+
+  .commercial {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 16px;
+    box-sizing: border-box;
+  }
+
+  .comercial-text h1 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .second-commercial {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .comm-text {
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .learn,
+  .learns {
+    padding-top: 16px;
+  }
+
+  /* ---- Section three: Insights ---- */
+  .section-three {
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .feature-insight {
+    padding: 40px 16px 20px;
+  }
+
+  /* Key fix: margin-left: 160px was causing overflow */
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 16px;
+    gap: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .insight {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .insight img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .insight-text {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .insight-word {
+    padding: 10px 0;
+  }
+  .bx img{
+    width: 15px;
+    height: 15px;
+  }
+  .bxx img{
+    width: 15px;
+    height: 15px;
+
+  }
+    .sector-section {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  
+    .sector-made {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+    .sector-txt {
+    width: 90%;
+  }
+    .sector-icons {
+    width: auto;
+    gap: 24px;
+    padding: 20px 0;
+    justify-content: center;
+  }
+  /* ---- Section four: dark footer ---- */
+  .section-four {
+    height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  /* gap: 75% was the main overflow culprit here */
+  .linking {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 16px 20px;
+    gap: 0;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  /* Kill the absolute-positioned tooltip dropdowns that bleed off screen */
+  .linkings-drop,
+  .instagram-drop,
+  .twitter-drop,
+  .facebook-drop,
+  .linkedin-drop,
+  .youtube-drop {
+    display: none;
+  }
+
+  .social {
+    font-size: 22px;
+    gap: 20px;
+  }
+
+  .word {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  .words {
+    min-width: 130px;
+  }
+
+  .words h5 {
+    line-height: 36px;
+  }
+
+  /* ---- Footnote button ---- */
+  .footer {
+    box-sizing: border-box;
+  }
+
+  .footed {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 16px;
+    box-sizing: border-box;
+  }
+
+  /* ---- Ending nav ---- */
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ending-image {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-top: 4px;
+  }
+}
+ 
+ 
+/* ─── 480px ──────────────────────────────────
+   Mobile: full single-column, compact spacing,
+   large tap targets, smaller type
+   ─────────────────────────────────────────── */
+@media (max-width: 480px) {
+ 
+  /* ---- Header ---- */
+  nav {
+    padding: 10px 16px;
+  }
+ 
+  .capital-logo {
+    width: auto;
+    gap: 14px;
+  }
+ 
+  .capital-logo img {
+    width: 90px;
+  }
+ 
+  .capital-logo .icon {
+    font-size: 20px;
+  }
+ 
+  /* Mobile second nav */
+  .second-nav {
+    padding: 6px 16px;
+  }
+ 
+  .image-cap {
+    width: 90px;
+  }
+ 
+  .bar-flex h1 {
+    font-size: 17px;
+    line-height: 56px;
+  }
+ 
+  .bar-drop {
+    padding: 0 16px;
+    height: auto;
+    top: 60px;
+  }
+ 
+  .fact p {
+    font-size: 13px;
+    line-height: 56px;
+  }
+ 
+  /* Sub-header */
+  .small-linkss {
+    gap: 12px;
+  }
+ 
+  .small-linkss li a {
+    font-size: 12px;
+  }
+ 
+  /* ---- Legend ---- */
+  .legend-logo img {
+    height: 220px;
+  }
+ 
+  .box {
+    width: 94%;
+    padding: 18px;
+    margin-top: -40px;
+  }
+ 
+  .bx-text h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+ 
+  .bx-text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+ 
+  /* ---- Account section ---- */
+  .account-text {
+    width: 94%;
+    padding-top: 24px;
+  }
+ 
+  .account-typ h3 {
+    font-size: 15px;
+  }
+ 
+  .account-image {
+    gap: 20px;
+    padding-top: 24px;
+  }
+ 
+  .check-text h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+ 
+  .check-text p {
+    font-size: 13px;
+  }
+ 
+  /* ---- Section one ---- */
+  .bank-txt {
+    padding: 30px 16px 16px;
+    font-size: 14px;
+  }
+ 
+  .contained {
+    padding: 12px 16px 0;
+    gap: 16px;
+  }
+ 
+  .boxessed,
+  .boxess,
+  .boxeds {
+    width: 100%;
+    border-radius: 6px;
+  }
+ 
+  .boxessed img,
+  .boxess img,
+  .boxeds img {
+    height: 160px;
+  }
+ 
+  .box-tex h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+ 
+  .boxed-link {
+    padding: 24px 16px;
+    font-size: 14px;
+  }
+ 
+  /* ---- Section two ---- */
+  .commercial {
+    width: 94%;
+  }
+ 
+  .comercial-text h1 {
+    font-size: 19px;
+    line-height: 29px;
+  }
+ 
+  .comm-text h4 {
+    font-size: 15px;
+  }
+ 
+  .one1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+ 
+  /* ---- Section three ---- */
+  .feature-insight {
+    padding: 30px 16px 16px;
+    font-size: 14px;
+  }
+ 
+  .container {
+    padding: 12px 16px;
+    gap: 16px;
+  }
+ 
+  .insight {
+    width: 100%;
+  }
+ 
+  .insight img {
+    width: 100%;
+    height: 160px;
+  }
+ 
+  .insight-text {
+    width: 100%;
+  }
+  .insight-word{
+    line-height: 36px;
+  }
+ 
+  .box-texed p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+ 
+  .box-texeds h5 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+   .bx img{
+    width: 15px;
+    height: 15px;
+  }
+  .bxx img{
+     width: 15px;
+    height: 15px;
+
+  }
+
+ 
+  /* ---- Section four: dark footer ---- */
+  .section-four {
+    height: auto;
+  }
+ 
+  .linking {
+    width: 94%;
+    padding: 24px 0 16px;
+    flex-direction: column;
+    gap: 20px;
+  }
+ 
+  .social {
+    font-size: 22px;
+    gap: 24px;
+  }
+ 
+  .word {
+    width: 94%;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+ 
+  .words {
+    min-width: 120px;
+  }
+ 
+  .words h5 {
+    font-size: 13px;
+    line-height: 32px;
+  }
+ 
+  .words p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+ 
+  /* ---- Footnote ---- */
+  .footed {
+    width: 94%;
+    padding: 16px;
+  }
+ 
+  .inner h2 {
+    font-size: 15px;
+  }
+ 
+  .main li {
+    font-size: 11px;
+    line-height: 22px;
+  }
+ 
+  /* ---- Ending footer ---- */
+  .navigation {
+    flex-direction: column;
+    padding: 14px 4%;
+    gap: 10px;
+  }
+ 
+  .nav-tex p {
+    font-size: 11px;
+  }
+ 
+  .mid-nav {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+ 
+  .mid-nav a {
+    font-size: 11px;
+  }
+ 
+  .ending-image {
+    gap: 10px;
+    padding-top: 4px;
+  }
+ 
+  .house1 {
+    width: 16px;
+  }
+ 
+  .house2 {
+    width: 24px;
+  }
+    .sectors {
+    width: 94%;
+  }
+ 
+  .sector-txt {
+    width: 94%;
+  }
+ 
+  .sector-icons {
+    width: auto;
+    gap: 20px;
+  }
+}
+
